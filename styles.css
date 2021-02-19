@@ -1,0 +1,141 @@
+.canvas {
+    height:600px;
+    width: 850px;
+    background-color: black;
+}
+
+.background {
+    background-color: palevioletred;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.shapes {
+    display: flex;
+}
+
+#board {
+    width: 850px;
+    height: 600px;
+    margin: 0 auto;
+    color:black
+}
+.text-align-center {
+    text-align: center;
+}
+
+.margin-20 {
+    margin: 20px 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+ .relative {
+     position: relative
+ }
+
+ .primary-color {
+     background-color:lawngreen;
+ }
+
+ .secondary-color{
+     background-color: pink;
+ }
+
+ .background-color{
+    background-color: red; 
+ }
+
+.border-color-yellow {
+    border:black solid 5px;
+}
+
+.border-color-secondary {
+    border: pink solid 5px;
+}
+
+.border-color-primary {
+    border:black solid 5px;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+input {
+    margin-bottom: 3px;
+    display: block; 
+    font-size: 1.2em;
+    transform: translate(18%, 0);
+    padding-left: 10px;
+}
+
+button {
+    font-size: 1.1em;
+}
+
+#canvas {
+    height: 600px;
+    width: 850px;
+    overflow: scroll;
+}
+
+#shape-input{
+    width: 300px; 
+    height: 550px;
+    padding: 25px 0px;
+    transform: translateX(-3%);
+}
+
+#whole-div {
+    margin: 20px 0;
+}
+
+#Details{
+    margin: 20px 0;
+    width: 1200px;
+    height: 270px;
+}
+
+.bottom{
+    padding: 50px 20px;
+    width: 550px;
+    font-size:1.5em;
+}
+
+ .square {
+    background-color: red;
+    position: absolute;
+}
+
+.rectangle {
+    background-color: green;
+    position: absolute;    
+}
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+    position: absolute;    
+    
+}
+
+.triangle {
+    width: 0;
+	height: 0;
+    position: absolute;        
+}  

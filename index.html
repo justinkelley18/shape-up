@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape-Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="background-color">
+    <h1>Shape Up or Shape Out</h1>
+<div id="whole-div">
+
+    <div id="shape-input" class="text-align-center relative primary-color float-left border-color-secondary">
+        <div>
+            <h2>Rectangle</h2>
+            <input id="rectangle-height-input" type="text" onkeypress="return isNumberKey(event)" placeholder="height">
+            <input id="rectangle-width-input" type="text" placeholder="width" onkeypress="return isNumberKey(event)">
+            <button id="rect-btn" onclick="makeRectangle()">Insert Rectangle</button>
+        </div>
+        <div>
+            <h2>Square</h2>
+            <input id="side-length-input" type="text" placeholder="side-length" onkeypress="return isNumberKey(event)">
+            <button onclick="makeSquare()" id="square-btn">Insert Square</button>
+        </div>
+        <div>
+            <h2>Circle</h2>
+            <input id="radius-input" type="text" placeholder="radius" onkeypress="return isNumberKey(event)">
+            <button onclick="makeCircle()" id="circle-btn">Insert Circle</button>
+        </div>
+        <div>
+            <h2> Isosceles Right Triangle</h2>
+            <input id="triangle-height-input" type="text" placeholder="height" onkeypress="return isNumberKey(event)">
+            <button id="triangle-btn" onclick="makeTriangle()">Insert Triangle</button>
+        </div>
+    </div>
+</div>
+
+    <div id="canvas" class="secondary-color relative float-right border-color-primary">  
+    </div>
+
+    <div id="Details" class="primary-color float-right border-color-secondary">
+        <div id="left-bottom" class="bottom float-left">
+            <p id="shape-name">Shape Name:</p>
+            <p id="shape-height">Height:</p>            
+            <p id ="shape-width">Width:</p>
+        </div>
+        <div id="right-bottom" class="bottom float-right">
+            <p id="shape-radius">Radius:</p>
+            <p id="shape-area">Area:</p>
+            <p id="shape-perimeter">Perimeter:</p>            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+<!-- <body class="background">
+    <div id="Page">
+        <div class="shapes">
+            <div>
+                <h1>Rectangle</h1>
+                <button onclick="makeRectangle()" id="rectBtn">Insert Rectangle</button>
+                <input id="rectangle-height-input" type="text" placeholder="height">
+                <input id="rectangle-width-input" type="text" placeholder="width">
+            </div>
+            <div>
+                <h1>Square</h1>
+                <button onclick="createSquare()" id="sqBtn">Insert Square</button>
+                <input id="square-height-input" type="text" placeholder="height">
+                <input id="square-width-input" type="text" placeholder="width">
+            </div>
+            <div>
+                <h1>Triangle</h1>
+                <button onclick='ceateTriangle()' id="triBtn">Insert Triangle</button>
+                <input id="triangle-height-input" type="text" placeholder="height">
+            </div>
+            <div>
+                <h1>Circle</h1>
+                <button onclick="createCircle()" id="cirBtn">Insert Circle</button>
+                <input id="radius-input" type="text" placeholder="radius" >
+            </div>
+
+        </div>
+
+    </div> 
+    <div class="Canvas">
+        <div id = "Board">
+
+
+
+            board
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body> -->
+
+</html>
